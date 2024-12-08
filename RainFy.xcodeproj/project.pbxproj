@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC5012742D05E22C00F334C1 /* RainFyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5012732D05E22C00F334C1 /* RainFyApp.swift */; };
+		EC5012762D05E22C00F334C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5012752D05E22C00F334C1 /* ContentView.swift */; };
+		EC5012782D05E22D00F334C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5012772D05E22D00F334C1 /* Assets.xcassets */; };
+		EC50127B2D05E22D00F334C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC50127A2D05E22D00F334C1 /* Preview Assets.xcassets */; };
+		EC5012852D05E22D00F334C1 /* RainFyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5012842D05E22D00F334C1 /* RainFyTests.swift */; };
+		EC50128F2D05E22D00F334C1 /* RainFyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50128E2D05E22D00F334C1 /* RainFyUITests.swift */; };
+		EC5012912D05E22D00F334C1 /* RainFyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5012902D05E22D00F334C1 /* RainFyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC5012812D05E22D00F334C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5012682D05E22C00F334C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC50126F2D05E22C00F334C1;
+			remoteInfo = RainFy;
+		};
+		EC50128B2D05E22D00F334C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5012682D05E22C00F334C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC50126F2D05E22C00F334C1;
+			remoteInfo = RainFy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC5012702D05E22C00F334C1 /* RainFy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainFy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5012732D05E22C00F334C1 /* RainFyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainFyApp.swift; sourceTree = "<group>"; };
+		EC5012752D05E22C00F334C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC5012772D05E22D00F334C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC50127A2D05E22D00F334C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC5012802D05E22D00F334C1 /* RainFyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainFyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5012842D05E22D00F334C1 /* RainFyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainFyTests.swift; sourceTree = "<group>"; };
+		EC50128A2D05E22D00F334C1 /* RainFyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainFyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC50128E2D05E22D00F334C1 /* RainFyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainFyUITests.swift; sourceTree = "<group>"; };
+		EC5012902D05E22D00F334C1 /* RainFyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainFyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC50126D2D05E22C00F334C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC50127D2D05E22D00F334C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5012872D05E22D00F334C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5012672D05E22C00F334C1 = {
+			isa = PBXGroup;
+			children = (
+				EC5012722D05E22C00F334C1 /* RainFy */,
+				EC5012832D05E22D00F334C1 /* RainFyTests */,
+				EC50128D2D05E22D00F334C1 /* RainFyUITests */,
+				EC5012712D05E22C00F334C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5012712D05E22C00F334C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5012702D05E22C00F334C1 /* RainFy.app */,
+				EC5012802D05E22D00F334C1 /* RainFyTests.xctest */,
+				EC50128A2D05E22D00F334C1 /* RainFyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5012722D05E22C00F334C1 /* RainFy */ = {
+			isa = PBXGroup;
+			children = (
+				EC5012732D05E22C00F334C1 /* RainFyApp.swift */,
+				EC5012752D05E22C00F334C1 /* ContentView.swift */,
+				EC5012772D05E22D00F334C1 /* Assets.xcassets */,
+				EC5012792D05E22D00F334C1 /* Preview Content */,
+			);
+			path = RainFy;
+			sourceTree = "<group>";
+		};
+		EC5012792D05E22D00F334C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC50127A2D05E22D00F334C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC5012832D05E22D00F334C1 /* RainFyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5012842D05E22D00F334C1 /* RainFyTests.swift */,
+			);
+			path = RainFyTests;
+			sourceTree = "<group>";
+		};
+		EC50128D2D05E22D00F334C1 /* RainFyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC50128E2D05E22D00F334C1 /* RainFyUITests.swift */,
+				EC5012902D05E22D00F334C1 /* RainFyUITestsLaunchTests.swift */,
+			);
+			path = RainFyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC50126F2D05E22C00F334C1 /* RainFy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5012942D05E22D00F334C1 /* Build configuration list for PBXNativeTarget "RainFy" */;
+			buildPhases = (
+				EC50126C2D05E22C00F334C1 /* Sources */,
+				EC50126D2D05E22C00F334C1 /* Frameworks */,
+				EC50126E2D05E22C00F334C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainFy;
+			productName = RainFy;
+			productReference = EC5012702D05E22C00F334C1 /* RainFy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC50127F2D05E22D00F334C1 /* RainFyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5012972D05E22D00F334C1 /* Build configuration list for PBXNativeTarget "RainFyTests" */;
+			buildPhases = (
+				EC50127C2D05E22D00F334C1 /* Sources */,
+				EC50127D2D05E22D00F334C1 /* Frameworks */,
+				EC50127E2D05E22D00F334C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5012822D05E22D00F334C1 /* PBXTargetDependency */,
+			);
+			name = RainFyTests;
+			productName = RainFyTests;
+			productReference = EC5012802D05E22D00F334C1 /* RainFyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC5012892D05E22D00F334C1 /* RainFyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC50129A2D05E22D00F334C1 /* Build configuration list for PBXNativeTarget "RainFyUITests" */;
+			buildPhases = (
+				EC5012862D05E22D00F334C1 /* Sources */,
+				EC5012872D05E22D00F334C1 /* Frameworks */,
+				EC5012882D05E22D00F334C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC50128C2D05E22D00F334C1 /* PBXTargetDependency */,
+			);
+			name = RainFyUITests;
+			productName = RainFyUITests;
+			productReference = EC50128A2D05E22D00F334C1 /* RainFyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5012682D05E22C00F334C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EC50126F2D05E22C00F334C1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EC50127F2D05E22D00F334C1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EC50126F2D05E22C00F334C1;
+					};
+					EC5012892D05E22D00F334C1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EC50126F2D05E22C00F334C1;
+					};
+				};
+			};
+			buildConfigurationList = EC50126B2D05E22C00F334C1 /* Build configuration list for PBXProject "RainFy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC5012672D05E22C00F334C1;
+			productRefGroup = EC5012712D05E22C00F334C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC50126F2D05E22C00F334C1 /* RainFy */,
+				EC50127F2D05E22D00F334C1 /* RainFyTests */,
+				EC5012892D05E22D00F334C1 /* RainFyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC50126E2D05E22C00F334C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC50127B2D05E22D00F334C1 /* Preview Assets.xcassets in Resources */,
+				EC5012782D05E22D00F334C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC50127E2D05E22D00F334C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5012882D05E22D00F334C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC50126C2D05E22C00F334C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5012762D05E22C00F334C1 /* ContentView.swift in Sources */,
+				EC5012742D05E22C00F334C1 /* RainFyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC50127C2D05E22D00F334C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5012852D05E22D00F334C1 /* RainFyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5012862D05E22D00F334C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC50128F2D05E22D00F334C1 /* RainFyUITests.swift in Sources */,
+				EC5012912D05E22D00F334C1 /* RainFyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC5012822D05E22D00F334C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC50126F2D05E22C00F334C1 /* RainFy */;
+			targetProxy = EC5012812D05E22D00F334C1 /* PBXContainerItemProxy */;
+		};
+		EC50128C2D05E22D00F334C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC50126F2D05E22C00F334C1 /* RainFy */;
+			targetProxy = EC50128B2D05E22D00F334C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC5012922D05E22D00F334C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC5012932D05E22D00F334C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5012952D05E22D00F334C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RainFy/Preview Content\"";
+				DEVELOPMENT_TEAM = 47SNXDDJBA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gustavobarreto.RainFy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC5012962D05E22D00F334C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RainFy/Preview Content\"";
+				DEVELOPMENT_TEAM = 47SNXDDJBA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gustavobarreto.RainFy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC5012982D05E22D00F334C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47SNXDDJBA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gustavobarreto.RainFyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainFy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RainFy";
+			};
+			name = Debug;
+		};
+		EC5012992D05E22D00F334C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47SNXDDJBA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gustavobarreto.RainFyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainFy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RainFy";
+			};
+			name = Release;
+		};
+		EC50129B2D05E22D00F334C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47SNXDDJBA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gustavobarreto.RainFyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RainFy;
+			};
+			name = Debug;
+		};
+		EC50129C2D05E22D00F334C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47SNXDDJBA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gustavobarreto.RainFyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RainFy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC50126B2D05E22C00F334C1 /* Build configuration list for PBXProject "RainFy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5012922D05E22D00F334C1 /* Debug */,
+				EC5012932D05E22D00F334C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5012942D05E22D00F334C1 /* Build configuration list for PBXNativeTarget "RainFy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5012952D05E22D00F334C1 /* Debug */,
+				EC5012962D05E22D00F334C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5012972D05E22D00F334C1 /* Build configuration list for PBXNativeTarget "RainFyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5012982D05E22D00F334C1 /* Debug */,
+				EC5012992D05E22D00F334C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC50129A2D05E22D00F334C1 /* Build configuration list for PBXNativeTarget "RainFyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC50129B2D05E22D00F334C1 /* Debug */,
+				EC50129C2D05E22D00F334C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC5012682D05E22C00F334C1 /* Project object */;
+}
